@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "121",
+    "343",
+    "565"
+  ],
+  "key": {
+    "1": [
+      "minecraft:redstone_torch"
+    ],
+    "2": [
+      "minecraft:redstone_lamp"
+    ],
+    "3": [
+      "minecraft:redstone"
+    ],
+    "4": [
+      "minecraft:compass"
+    ],
+    "5": [
+      "minecraft:ender_eye"
+    ],
+    "6": [
+      "minecraft:lodestone"
+    ]
+  },
+  "result": {
+    "id": "minecraft:compass",
+    "components": {
+      "minecraft:custom_data": {
+        "type": "sc.compass"
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_name": "Structure Compass",
+      "minecraft:food":{"can_always_eat":true,"nutrition":0,"saturation":0},
+      "minecraft:consumable":{
+        "consume_seconds":315576000,
+        "animation":"none",
+        "has_consume_particles":false,
+        "sound":"item.lodestone_compass.lock"
+      }
+    },
+    "count": 1
+  }
+}
