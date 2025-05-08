@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "compass": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:compass",
+          "components": {
+            "minecraft:custom_data": {
+              "namespace": "lsc:structure_compass"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "lsc:right_click"
+  }
+}
