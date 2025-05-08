@@ -26,7 +26,7 @@ $summon armor_stand ~ ~ ~ {\
   }\
 }
 
-$item modify entity @e[type=armor_stand, tag=lsc.armor_stand] weapon.mainhand {"function":"exploration_map", "destination":"$(tag)", skip_existing_chunks:false}
+$item modify entity @e[type=armor_stand, tag=lsc.armor_stand] weapon.mainhand {"function":"exploration_map", "destination":"$(tag)", skip_existing_chunks:false, search_radius:625}
 
 data modify entity @e[type=armor_stand, tag=lsc.armor_stand, limit=1] equipment.offhand.components."minecraft:lodestone_tracker".target.pos[0] set from entity @e[type=armor_stand, tag=lsc.armor_stand, limit=1] equipment.mainhand.components."minecraft:map_decorations".+.x
 data modify entity @e[type=armor_stand, tag=lsc.armor_stand, limit=1] equipment.offhand.components."minecraft:lodestone_tracker".target.pos[2] set from entity @e[type=armor_stand, tag=lsc.armor_stand, limit=1] equipment.mainhand.components."minecraft:map_decorations".+.z
