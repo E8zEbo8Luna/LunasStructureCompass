@@ -21,6 +21,7 @@ $summon armor_stand ~ ~ ~ {\
       "minecraft:custom_name": {"italic":false, "text":"Structure Compass"},\
       "minecraft:lore": [{"color":"white","italic":false,"text":"Structure tracked!:"}, {"color":"white","italic":false,"text":"$(name) (#$(tag))"}],\
       "minecraft:rarity": "uncommon",\
+      "minecraft:max_stack_size": 1,\
       "minecraft:lodestone_tracker":{target:{dimension:"$(dimension)",pos:[I;0,0,0]},tracked:false}\
     }}\
   }\
@@ -80,7 +81,7 @@ execute if items entity @s weapon.mainhand written_book[written_book_content={pa
     {"text":"> Woodland Mansion <","click_event":{"action":"run_command","command":"/trigger lsc.mansion"},\
     "hover_event":{"action":"show_text","value":"#lsc:mansion"}},{"text":"\n"},\
   ]]\
-],title:"Structure Compass",author:E8zEbo8Luna,generation:3,resolved:true},custom_data={"namespace":"lsc.structure_compass"}] \
+],title:"Structure Compass",author:E8zEbo8Luna,generation:3,resolved:true},custom_data={"namespace":"lsc.structure_compass"},rarity="uncommon",max_stack_size=1] \
 run item replace entity @s weapon.mainhand from entity @e[type=armor_stand, tag=lsc.armor_stand, limit=1] weapon.offhand
 
 execute if items entity @s weapon.offhand written_book[written_book_content={pages:[\
@@ -132,7 +133,7 @@ execute if items entity @s weapon.offhand written_book[written_book_content={pag
     {"text":"> Woodland Mansion <","click_event":{"action":"run_command","command":"/trigger lsc.mansion"},\
     "hover_event":{"action":"show_text","value":"#lsc:mansion"}},{"text":"\n"},\
   ]]\
-],title:"Structure Compass",author:E8zEbo8Luna,generation:3,resolved:true},custom_data={"namespace":"lsc.structure_compass"}] \
+],title:"Structure Compass",author:E8zEbo8Luna,generation:3,resolved:true},custom_data={"namespace":"lsc.structure_compass"},rarity="uncommon",max_stack_size=1] \
 run item replace entity @s weapon.offhand from entity @e[type=armor_stand, tag=lsc.armor_stand, limit=1] weapon.offhand
 
 kill @e[type=armor_stand, tag=lsc.armor_stand]
