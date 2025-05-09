@@ -32,7 +32,8 @@
       "minecraft:custom_data": {
         "namespace":"lsc:structure_compass"
       },
-      "minecraft:custom_name": "Structure Compass"
+      "minecraft:rarity": "uncommon",
+      "minecraft:custom_name": {"italic":false, "text":"Structure Compass"}
     }
   }
 }
