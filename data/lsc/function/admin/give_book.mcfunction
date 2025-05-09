@@ -47,4 +47,4 @@ give @a written_book[written_book_content={pages:[\
     {"text":"> Woodland Mansion <","click_event":{"action":"run_command","command":"/trigger lsc.mansion"},\
     "hover_event":{"action":"show_text","value":"#lsc:mansion"}},{"text":"\n"},\
   ]]\
-],title:"Structure Compass",author:E8zEbo8Luna,generation:3,resolved:true},custom_data={"namespace":"lsc.structure_compass"}]
+],title:"Structure Compass",author:E8zEbo8Luna,generation:3,resolved:true},custom_data={"namespace":"lsc.structure_compass"},rarity="uncommon",max_stack_size=1]
