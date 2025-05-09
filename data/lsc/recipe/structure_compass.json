@@ -33,6 +33,7 @@
         "namespace":"lsc:structure_compass"
       },
       "minecraft:rarity": "uncommon",
+      "minecraft:max_stack_size": 1,
       "minecraft:custom_name": {"italic":false, "text":"Structure Compass"}
     }
   }
