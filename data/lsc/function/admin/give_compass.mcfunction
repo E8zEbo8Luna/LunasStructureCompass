@@ -4,4 +4,5 @@ give @s compass[\
   custom_data={"namespace":"lsc:structure_compass"},\
   custom_name={"italic":false, "text":"Structure Compass"},\
   rarity="uncommon",\
+  max_stack_size=1\
 ]
