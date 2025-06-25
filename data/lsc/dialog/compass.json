@@ -1,0 +1,186 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Structure Compass",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Choose a structure to track!"
+  },
+  "actions": [
+    {
+      "label": "Ancient City",
+      "tooltip": "#lsc:ancient_city",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Ancient City\", tag:\"lsc:ancient_city\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Bastion",
+      "tooltip": "#lsc:bastion_remnant",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Bastion\", tag:\"lsc:bastion_remnant\", dimension:\"minecraft:the_nether\"}"
+      }
+    },
+    {
+      "label": "Buried Treasure",
+      "tooltip": "#lsc:buried_treasure",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Buried Treasure\", tag:\"lsc:buried_treasure\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Desert Temple",
+      "tooltip": "#lsc:desert_pyramid",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Desert Temple\", tag:\"lsc:desert_pyramid\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "End City",
+      "tooltip": "#lsc:end_city",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"End City\", tag:\"lsc:end_city\", dimension:\"minecraft:the_end\"}"
+      }
+    },
+    {
+      "label": "Igloo",
+      "tooltip": "#lsc:igloo",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Igloo\", tag:\"lsc:igloo\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Jungle Temple",
+      "tooltip": "#lsc:jungle_pyramid",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Jungle Temple\", tag:\"lsc:jungle_pyramid\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Mineshaft",
+      "tooltip": "#minecraft:mineshaft",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Mineshaft\", tag:\"minecraft:mineshaft\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Nether Fortress",
+      "tooltip": "#lsc:fortress",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Nether Fortress\", tag:\"lsc:fortress\", dimension:\"minecraft:the_nether\"}"
+      }
+    },
+    {
+      "label": "Fossil (Nether)",
+      "tooltip": "#lsc:nether_fossil",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Fossil (Nether)\", tag:\"lsc:nether_fossil\", dimension:\"minecraft:the_nether\"}"
+      }
+    },
+    {
+      "label": "Ocean Monument",
+      "tooltip": "#lsc:monument",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Ocean Monument\", tag:\"lsc:monument\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Ocean Ruins",
+      "tooltip": "#minecraft:ocean_ruin",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Ocean Ruins\", tag:\"minecraft:ocean_ruin\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Pillager Outpost",
+      "tooltip": "#lsc:pillager_outpost",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Pillager Outpost\", tag:\"lsc:pillager_outpost\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Ruined Portal (Overworld)",
+      "tooltip": "#lsc:ruined_portal_overworld",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Ruined Portal (Overworld)\", tag:\"lsc:ruined_portal_overworld\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Ruined Portal (Nether)",
+      "tooltip": "#lsc:ruined_portal_nether",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Ruined Portal (Nether)\", tag:\"lsc:ruined_portal_nether\", dimension:\"minecraft:the_nether\"}"
+      }
+    },
+    {
+      "label": "Shipwreck",
+      "tooltip": "#minecraft:shipwreck",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Shipwreck\", tag:\"minecraft:shipwreck\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Stronghold",
+      "tooltip": "#lsc:stronghold",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Stronghold\", tag:\"lsc:stronghold\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Swamp Hut",
+      "tooltip": "#lsc:swamp_hut",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Swamp Hut\", tag:\"lsc:swamp_hut\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Trail Ruins",
+      "tooltip": "#lsc:trail_ruins",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Trail Ruins\", tag:\"lsc:trail_ruins\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Trial Chambers",
+      "tooltip": "#lsc:trial_chambers",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Trial Chambers\", tag:\"lsc:trial_chambers\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Village",
+      "tooltip": "#minecraft:village",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Village\", tag:\"minecraft:village\", dimension:\"minecraft:overworld\"}"
+      }
+    },
+    {
+      "label": "Woodland Mansion",
+      "tooltip": "#lsc:mansion",
+      "action": {
+        "type": "run_command",
+        "command": "function lsc:get_compass {name:\"Woodland Mansion\", tag:\"lsc:mansion\", dimension:\"minecraft:overworld\"}"
+      }
+    }
+  ]
+}
